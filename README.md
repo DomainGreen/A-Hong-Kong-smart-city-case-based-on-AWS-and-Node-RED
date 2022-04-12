@@ -1,16 +1,16 @@
-A Hong Kong smart city case based on AWS and Node-RED
+# A Hong Kong smart city case based on AWS and Node-RED
 An application that fetch data streams from https://data.gov.hk/, data analysis and correlation, as well as dashboards to present insights in relation to the selected smart city use cases.
 
 This is also the programming assginment from HKU MSC CS COMP7503.
 
-Requirements:
+# Requirements:
 Amazon AWS EC2 : A platform where we can set up our own instance and make connections to it.
 
 Node-RED: A programming tool where we can fetch data streams and do programming work(using Javascript). It also has the dashboard to present insights in relation to our smart city cases.
 
 MongoDB: A database that we use to store and analyze required data.
 
-Implementation:
+# Implementation:
 connect to the AWS EC2 instance(by using ssh connection)
 eg. ssh -L 1880:localhost:1880 -L 27017:localhost:27017 -i XXXX.pem.txt ec2-user@XX.XX.XX.XX
 
@@ -19,7 +19,7 @@ eg. url: http://localhost:1880/
 
 Then do the programming part in Node-RED and also make connections to MongoDB(the /.json file). using Javascript.
 
-Our project work:
+# Our project work:
 ![image](https://github.com/DomainGreen/A-Hong-Kong-smart-city-case-based-on-AWS-and-Node-RED/blob/main/1.png)
 ![image](https://github.com/DomainGreen/A-Hong-Kong-smart-city-case-based-on-AWS-and-Node-RED/blob/main/2.png)
 We focus on the real-time weather information of Hong Kong. The dashboards of our project are shown in the picture below.  
@@ -32,7 +32,7 @@ In Radiation & Air Quality, we firstly show the basic current radiation situatio
 
 Finally, in Weather Map, we show a real-time Hong Kong map with many different dots. Each dot means a place. Blue dots present current rainfall situation in this place, while green dots store the temperature information in this place. We can check each dot to see the weather detail of this place.
 
-Thanks:
+# Thanks:
 Many thanks to my dear teammates: small Fong and small Cen~
 
 Lucky to meet you guys in HKU.
