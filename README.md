@@ -20,6 +20,8 @@ eg. url: http://localhost:1880/
 Then do the programming part in Node-RED and also make connections to MongoDB(the /.json file). using Javascript.
 
 Our project work:
+![image](https://github.com/DomainGreen/A-Hong-Kong-smart-city-case-based-on-AWS-and-Node-RED/blob/main/1.png)
+![image](https://github.com/DomainGreen/A-Hong-Kong-smart-city-case-based-on-AWS-and-Node-RED/blob/main/2.png)
 We focus on the real-time weather information of Hong Kong. The dashboards of our project are shown in the picture below.  
 
 There are mainly 4 different functions: basic weather information, radiation & air quality, rainfall and weather map.
